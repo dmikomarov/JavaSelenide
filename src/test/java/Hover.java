@@ -13,7 +13,6 @@ public class Hover {
     $(byText("Enterprise")).click();
     //Проверка наличия заголовка
     $(".application-main").shouldHave(text("Build like the best"));
-    sleep(6000);
 
   }
 }
